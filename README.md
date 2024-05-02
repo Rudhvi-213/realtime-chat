@@ -1,5 +1,6 @@
 # REALTIME CHAT Application With LLM Integration
 
+
 Sign Up  -- POST
 ![auth_Signup_POST](https://github.com/Rudhvi-213/realtime-chat/assets/128178166/bfcd9f33-5ce4-43e1-88b0-0fefda777697)
 
@@ -18,3 +19,27 @@ Send a Message to a User --  POST
 Gemini LLM API Integration --- GET
 ![gemini_API](https://github.com/Rudhvi-213/realtime-chat/assets/128178166/06b49896-2b6b-4fd5-9ca5-844be9eed1d6)
 
+
+For Backend:
+```shell
+npm run server
+```
+
+
+For Frontend:
+```shell
+cd frontend/
+npm install
+npm start
+```
+
+
+
+● Tech stack: MERN + Socket.io (in development) + Gemini LLM
+● Authentication && Authorization with JWT
+● Store all messages in MongoDB.
+● Ensure messages in chat are retrievable for conversation between people.
+● Error handling both on the server and the client {toast for error Handling }
+● Online user status (Socket.io) (In development)
+● Global state management with Zustand (In development)
+● Gemini LLM Integration (In Development)
