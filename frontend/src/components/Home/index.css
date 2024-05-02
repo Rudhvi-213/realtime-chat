@@ -1,0 +1,14 @@
+.home_container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.chat_card{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 50%;
+    height: 100%;
+}
+

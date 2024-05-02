@@ -1,0 +1,17 @@
+.blue_background{
+    background-color: blue;
+
+}
+
+.chat_container{
+    display: flex;
+    margin: 20px;
+    align-self: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.conversation_profile_img{
+    height: 100px;
+}
